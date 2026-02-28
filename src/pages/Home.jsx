@@ -77,13 +77,13 @@ function Home() {
       {/* Services Section */}
       <section className="py-40 bg-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-5xl font-bold text-slate-900 mb-4">
+          <div className="text-center mb-28">
+            <h2 className="text-6xl sm:text-5xl font-bold text-slate-900 mb-4">
               Cronograma de Reuniones y Actividades
             </h2>
           </div>
           {/* card services */}
-          <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-2  ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <Card
               bgClass="bg-red-300"
               title="REUNIÓN CENTRAL Y DE NIÑOS"
@@ -107,7 +107,7 @@ function Home() {
 
              <Card
               bgClass="bg-purple-300"
-              title="REUNIÓN DE PREADOLÉSCENTES"
+              title="REUNIÓN DE PRE ADOLÉSCENTES"
               subtitle="SABADO 16:00HS"
               description="Espacio formativo diseñado para acompañar a preadolescentes en una etapa clave de su desarrollo. A través de dinámicas participativas, enseñanza bíblica contextualizada y actividades recreativas, promovemos el crecimiento espiritual, la formación en valores y la construcción de vínculos saludables en un ambiente seguro y guiado por líderes capacitados."
             />
