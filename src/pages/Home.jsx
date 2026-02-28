@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import backgroundVideo from "../assets/video/video.mp4";
-import imgCard from "../assets/images/reunionDom.jpg";
-import imgCard2 from "../assets/images/miercoles.jpg";
-import imgCard3 from "../assets/images/banner.webp";
+
 import imgCard4 from "../assets/images/pastorJorge.png";
 import Card from "../components/Card";
 
@@ -23,8 +21,7 @@ function Home() {
           playsInline
           style={{
             filter: "brightness(.3)", // Ajusta el brillo del video
-          }}
-        ></video>
+          }}></video>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
@@ -37,14 +34,12 @@ function Home() {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               to="/about"
-              className="bg-white text-black px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition duration-300 text-center"
-            >
+              className="bg-white text-black px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition duration-300 text-center">
               Conócenos
             </Link>
             <Link
               to="/events"
-              className="bg-transparent border-2 border-white px-6 py-3 rounded-md font-medium hover:bg-white hover:text-blue-900 transition duration-300 text-center"
-            >
+              className="bg-transparent border-2 border-white px-6 py-3 rounded-md font-medium hover:bg-white hover:text-blue-900 transition duration-300 text-center">
               Próximos Eventos
             </Link>
           </div>
@@ -80,39 +75,49 @@ function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-40 bg-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Nuestros Servicios
+            <h2 className="text-2xl sm:text-5xl font-bold text-slate-900 mb-4">
+              Cronograma de Reuniones y Actividades
             </h2>
-            <p className="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
-              Te invitamos a ser parte de nuestra comunidad y participar en
-              nuestros servicios semanales.
-            </p>
           </div>
           {/* card services */}
-          <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-2">
+          <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-2  ">
             <Card
-              image={imgCard3}
-              title="CUARTO DE ORACIÓN"
-              subtitle="ULTIMO VIERNES DEL MES 19:00 hs"
-              description="Únete a nosotros para un tiempo de oración y comunión con Dios."
+              bgClass="bg-red-300"
+              title="REUNIÓN CENTRAL Y DE NIÑOS"
+              subtitle="DOMINGO 10:30HS"
+              description="Un espacio para toda la familia donde compartimos un tiempo de adoración, enseñanza y comunión. Mientras los adultos participan de la reunión central, los niños viven una experiencia dinámica y segura, aprendiendo valores y principios bíblicos de manera creativa y relevante para su edad."
             />
 
             <Card
-              image={imgCard2}
-              title="REUNION DE ORACIÓN"
-              subtitle="MIERCOLES 7:00 pm"
-              description="Únete a nosotros para un tiempo de oración y comunión con Dios."
+              bgClass="bg-green-300"
+              title="REUNIÓN DE ORACIÓN"
+              subtitle="MIERCOLES 19:00HS"
+              description="Un espacio para toda la familia donde compartimos un tiempo de adoración, enseñanza y comunión. Mientras los adultos participan de la reunión central, los niños viven una experiencia dinámica y segura, aprendiendo valores y principios bíblicos de manera creativa y relevante para su edad."
             />
 
             <Card
-              image={imgCard}
-              title="REUNION CENTRAL"
-              subtitle="DOMINGO 10:30 am"
-              description="Únete a nosotros para alabanza, adoración y un mensaje inspirador de la Palabra de Dios."
+              bgClass="bg-yellow-300"
+              title="SANANDO IDENTIDADES"
+              subtitle="JUEVES 19:00HS"
+              description="Un espacio para toda la familia donde compartimos un tiempo de adoración, enseñanza y comunión. Mientras los adultos participan de la reunión central, los niños viven una experiencia dinámica y segura, aprendiendo valores y principios bíblicos de manera creativa y relevante para su edad."
             />
+
+             <Card
+              bgClass="bg-purple-300"
+              title="REUNIÓN DE PREADOLÉSCENTES"
+              subtitle="SABADO 16:00HS"
+              description="Espacio formativo diseñado para acompañar a preadolescentes en una etapa clave de su desarrollo. A través de dinámicas participativas, enseñanza bíblica contextualizada y actividades recreativas, promovemos el crecimiento espiritual, la formación en valores y la construcción de vínculos saludables en un ambiente seguro y guiado por líderes capacitados."
+            />
+
+              <Card 
+                bgClass="bg-pink-300"
+                title="REUNIÓN DE ADOLESCENTES Y JÓVENES"
+                subtitle="SABADO 19:00HS"
+                description="Espacio de formación y acompañamiento orientado a adolescentes y jóvenes, enfocado en el desarrollo espiritual, personal y relacional. A través de encuentros dinámicos, enseñanza relevante y tiempos de reflexión, promovemos una fe sólida, el liderazgo con valores y la construcción de una identidad firme en un entorno de contención y comunidad."
+              />
           </div>
         </div>
       </section>
@@ -143,8 +148,7 @@ function Home() {
                 </p>
                 <Link
                   to="/events"
-                  className="text-blue-600 font-medium hover:text-blue-800"
-                >
+                  className="text-blue-600 font-medium hover:text-blue-800">
                   Más información →
                 </Link>
               </div>
@@ -165,8 +169,7 @@ function Home() {
                 </p>
                 <Link
                   to="/events"
-                  className="text-blue-600 font-medium hover:text-blue-800"
-                >
+                  className="text-blue-600 font-medium hover:text-blue-800">
                   Más información →
                 </Link>
               </div>
@@ -186,8 +189,7 @@ function Home() {
                 </p>
                 <Link
                   to="/events"
-                  className="text-blue-600 font-medium hover:text-blue-800"
-                >
+                  className="text-blue-600 font-medium hover:text-blue-800">
                   Más información →
                 </Link>
               </div>
@@ -197,8 +199,7 @@ function Home() {
           <div className="text-center mt-10">
             <Link
               to="/events"
-              className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition duration-300"
-            >
+              className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition duration-300">
               Ver Todos los Eventos
             </Link>
           </div>
@@ -288,8 +289,7 @@ function Home() {
           </p>
           <Link
             to="/contact"
-            className="bg-white text-blue-900 px-6 py-4 rounded-md font-medium text-base sm:text-lg hover:bg-gray-100 transition duration-300 inline-block"
-          >
+            className="bg-white text-blue-900 px-6 py-4 rounded-md font-medium text-base sm:text-lg hover:bg-gray-100 transition duration-300 inline-block">
             Contáctanos
           </Link>
         </div>
