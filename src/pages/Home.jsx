@@ -87,35 +87,35 @@ function Home() {
             <Card
               bgClass="bg-red-300"
               title="REUNIÓN CENTRAL Y DE NIÑOS"
-              subtitle="DOMINGO 10:30HS"
+              subtitle="📅 DOMINGO 10:30HS"
               description="Un espacio para toda la familia donde compartimos un tiempo de adoración, enseñanza y comunión. Mientras los adultos participan de la reunión central, los niños viven una experiencia dinámica y segura, aprendiendo valores y principios bíblicos de manera creativa y relevante para su edad."
             />
 
             <Card
               bgClass="bg-green-300"
               title="REUNIÓN DE ORACIÓN"
-              subtitle="MIERCOLES 19:00HS"
-              description="Un espacio para toda la familia donde compartimos un tiempo de adoración, enseñanza y comunión. Mientras los adultos participan de la reunión central, los niños viven una experiencia dinámica y segura, aprendiendo valores y principios bíblicos de manera creativa y relevante para su edad."
+              subtitle="📅 MIERCOLES 19:00HS"
+              description="Espacio dedicado a la búsqueda de Dios a través de la oración y la intercesión. Como comunidad, nos reunimos para fortalecer nuestra vida espiritual, presentar necesidades y agradecer por lo que Él está haciendo, afirmando nuestra dependencia y compromiso en unidad."
             />
 
             <Card
               bgClass="bg-yellow-300"
               title="SANANDO IDENTIDADES"
-              subtitle="JUEVES 19:00HS"
-              description="Un espacio para toda la familia donde compartimos un tiempo de adoración, enseñanza y comunión. Mientras los adultos participan de la reunión central, los niños viven una experiencia dinámica y segura, aprendiendo valores y principios bíblicos de manera creativa y relevante para su edad."
+              subtitle="📅 JUEVES 19:00HS"
+              description="Ministerio orientado al acompañamiento y la restauración integral de personas que atraviesan situaciones de adicciones. A través de un abordaje espiritual, relacional y formativo, promovemos procesos de transformación, recuperación de la identidad y fortalecimiento personal, en un entorno de contención, confidencialidad y respeto."
             />
 
              <Card
               bgClass="bg-purple-300"
               title="REUNIÓN DE PRE ADOLÉSCENTES"
-              subtitle="SABADO 16:00HS"
+              subtitle="📅 SABADO 16:00HS"
               description="Espacio formativo diseñado para acompañar a preadolescentes en una etapa clave de su desarrollo. A través de dinámicas participativas, enseñanza bíblica contextualizada y actividades recreativas, promovemos el crecimiento espiritual, la formación en valores y la construcción de vínculos saludables en un ambiente seguro y guiado por líderes capacitados."
             />
 
               <Card 
                 bgClass="bg-pink-300"
                 title="REUNIÓN DE ADOLESCENTES Y JÓVENES"
-                subtitle="SABADO 19:00HS"
+                subtitle="📅 SABADO 19:00HS"
                 description="Espacio de formación y acompañamiento orientado a adolescentes y jóvenes, enfocado en el desarrollo espiritual, personal y relacional. A través de encuentros dinámicos, enseñanza relevante y tiempos de reflexión, promovemos una fe sólida, el liderazgo con valores y la construcción de una identidad firme en un entorno de contención y comunidad."
               />
           </div>
